@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/* ====================
+== header part start ===
+==================== */
+
+header {
+    background: #2d3e50;
+    padding: 20px 0;
+    font-family: 'Arimo';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+header .header_left {
+    width: 50%;
+    float: left;
+}
+
+header .header_left ul li {
+    color: #fff;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+header .header_right {
+    width: 50%;
+    float: left;
+}
+
+header .header_right ul li {
+    color: #fff;
+    display: inline-block;
+    text-align: right;
+    transition: .4s;
+}
+
+header .header_right ul li:hover {
+    color: #fbaa33;
+}
+/* ====================
+== header part end  ==
+==================== */
+
+/* ====================
+== nav part start  ==
+==================== */
+
+#nav_part {
+    width: 100%;
+    height: 200px;
+    background: black;
+}
+
+#nav_part .logo {
+    width: 15%;
+    height: 200px;
+    background: red;
+    float: left;
+}
+
+#nav_part .nav_item {
+    width: 60%;
+    height: 200px;
+    background: blue;
+    float: left;
+}
+
+#nav_part .nav_item ul li {
+    display: inline-block;
+}
+
+#nav_part .nav_item ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav_part .nav_right {
+    width: 25%;
+    height: 200px;
+    background: yellow;
+    float: left;
+}
+
+#nav_part .nav_right a {
+    
+}
+/* ====================
+== nav part end  ==
+==================== */
